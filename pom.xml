@@ -1,0 +1,23 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>huo</groupId>
+  <artifactId>huo</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>teht9_mock</name>
+  <dependencies>
+	<dependency>
+	  <!-- JUnit Jupiter, yksikkötestausta varten -->
+	  <groupId>org.junit.jupiter</groupId>
+	  <artifactId>junit-jupiter-engine</artifactId>
+	  <version>5.8.1</version>
+	  <scope>test</scope>
+	</dependency>
+	<dependency>
+	  <!-- Mockito-kirjasto yksikkötestausta varten -->
+	  <groupId>org.mockito</groupId>
+	  <artifactId>mockito-core</artifactId>
+	  <version>4.1.0</version>
+	  <scope>test</scope>
+	</dependency>
+  </dependencies>
+</project>
